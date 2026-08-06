@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my skills, projects, resume, a
 
 ## 🌐 Live Demo
 
-🔗 https://pranav09130.github.io/portfolio/
+🔗https://pranav09130.github.io/portfolio-latest/
 
 > *(Update this link if your repository name changes.)*
 
