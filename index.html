@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pranav Medhe — Full-Stack Developer</title>
+<meta name="description" content="Portfolio of Pranav Medhe, full-stack developer — projects, background, and contact.">
+<meta name="theme-color" content="#08090a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">PM<span class="dot">·</span></a>
+    <ul class="nav-links">
+      <li><a href="#work">[ WORK ]</a></li>
+      <li><a href="#about">[ ABOUT ]</a></li>
+      <li><a href="#contact">[ CONTACT ]</a></li>
+    </ul>
+    <a href="pranav_resume.pdf" target="_blank" class="btn-resume">RESUME ↓</a>
+  </div>
+</nav>
+
+<header id="top" class="hero">
+  <div class="hero-grid">
+    <div class="hero-main">
+      <h1 class="hero-name reveal" style="transition-delay:0s">PRANAV MEDHE</h1>
+      <p class="hero-role reveal" style="transition-delay:0.08s">Full-Stack Developer</p>
+      <p class="hero-bio reveal" style="transition-delay:0.16s">Studying IT, currently building across full-stack and frontend internships. I like systems that are fast, clean, and actually ship.</p>
+      <div class="hero-actions reveal" style="transition-delay:0.24s">
+        <a href="#work" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-panel bracket reveal" id="statusPanel" style="transition-delay:0.32s">
+      <p class="panel-title mono">STATUS</p>
+      <dl class="readout">
+        <div class="readout-row"><dt>LOCATION</dt><dd>PUNE, IN</dd></div>
+        <div class="readout-row"><dt>LOCAL TIME</dt><dd id="liveClock">--:--:--</dd></div>
+        <div class="readout-row"><dt>STACK</dt><dd>REACT · NODE · SQL</dd></div>
+        <div class="readout-row"><dt>STATUS</dt><dd class="status-live"><span class="dot-live"></span>OPEN TO OPPORTUNITIES</dd></div>
+      </dl>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="work" class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow mono">01 — WORK</p>
+    <h2>Selected Projects</h2>
+  </div>
+  <div class="work-list" id="workList"></div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow mono">02 — ABOUT</p>
+    <h2>Background</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>B.Tech in Information Technology at DY Patil School of Engineering &amp; Technology, Pune (2022–2026).</p>
+      <p>Hands-on experience from full-stack and frontend internships at SaiKet Systems and Cognifyz Technologies — shipping task managers, e-commerce platforms, and a few browser games along the way.</p>
+      <div class="stack-groups" id="stackGroups"></div>
+    </div>
+    <div class="timeline reveal" id="timeline"></div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="section-head reveal">
+    <p class="eyebrow mono">03 — CONTACT</p>
+    <h2>Let's Talk</h2>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-list reveal">
+      <p class="contact-intro">Open to full-stack and frontend roles, freelance work, or just a good conversation about code.</p>
+      <a href="mailto:your.email@example.com" class="contact-row">
+        <span class="contact-label mono">EMAIL</span>
+        <span class="contact-value">pranavmedhe15@example.com</span>
+      </a>
+      <a href="https://linkedin.com/in/pranav-medhe-b49343260" target="_blank" class="contact-row">
+        <span class="contact-label mono">LINKEDIN</span>
+        <span class="contact-value">/in/pranav-medhe</span>
+      </a>
+      <a href="https://github.com/Pranav09130" target="_blank" class="contact-row">
+        <span class="contact-label mono">GITHUB</span>
+        <span class="contact-value">/Pranav09130</span>
+      </a>
+      <a href="resume.pdf" target="_blank" class="contact-row">
+        <span class="contact-label mono">RESUME</span>
+        <span class="contact-value">Download PDF</span>
+      </a>
+    </div>
+    <form class="contact-form bracket reveal" id="contactForm">
+      <div class="field">
+        <label for="cName">Name</label>
+        <input type="text" id="cName" required>
+      </div>
+      <div class="field">
+        <label for="cEmail">Email</label>
+        <input type="email" id="cEmail" required>
+      </div>
+      <div class="field">
+        <label for="cMessage">Message</label>
+        <textarea id="cMessage" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary form-submit">
+        <span>Send Message</span>
+      </button>
+      <p class="form-status" id="formStatus" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <p class="mono">© <span id="year"></span> PRANAV MEDHE — BUILT FROM SCRATCH</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
