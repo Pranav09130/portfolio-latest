@@ -5,8 +5,8 @@ const projects = [
   {
     title: 'TaskFlow',
     type: 'FULL-STACK',
-    description: 'Task management app with JWT-based authentication, a Node.js/Express + MySQL backend, and a React/Vite frontend. Deployed on Railway.',
-    stack: 'REACT · NODE.JS · EXPRESS · MYSQL · JWT',
+    description: 'Task management app with JWT-based authentication, a Node.js/Express + PostgreSQL backend, and a React/Vite frontend. Deployed on Railway.',
+    stack: 'REACT · NODE.JS · EXPRESS ·  POSTGRESQL· JWT',
     github: 'https://github.com/Pranav09130/TaskFlow', // ADD YOUR GITHUB REPO LINK
     live: 'https://task-flow-one-sooty.vercel.app/'    // ADD YOUR LIVE DEMO LINK
   },
@@ -46,7 +46,7 @@ const projects = [
 
 const stackGroups = [
   { label: 'FRONTEND', items: ['React', 'JavaScript', 'HTML5', 'CSS3'] },
-  { label: 'BACKEND', items: ['Node.js', 'Express', 'MySQL', 'MongoDB'] },
+  { label: 'BACKEND', items: ['Node.js', 'Express', 'MySQL','PostgreSQL', 'MongoDB'] },
   { label: 'TOOLS', items: ['Git', 'JWT', 'Redis', 'REST APIs'] }
 ];
 
