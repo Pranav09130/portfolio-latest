@@ -6,7 +6,7 @@ const projects = [
     title: 'TaskFlow',
     type: 'FULL-STACK',
     description: 'Task management app with JWT-based authentication, a Node.js/Express + PostgreSQL backend, and a React/Vite frontend. Deployed on Railway.',
-    stack: 'REACT · NODE.JS · EXPRESS ·  POSTGRESQL· JWT',
+    stack: 'REACT · NODE.JS · EXPRESS ·  POSTGRESQL · JWT',
     github: 'https://github.com/Pranav09130/TaskFlow', // ADD YOUR GITHUB REPO LINK
     live: 'https://task-flow-one-sooty.vercel.app/'    // ADD YOUR LIVE DEMO LINK
   },
