@@ -42,7 +42,7 @@ portfolio/
 ├── index.html
 ├── style.css
 ├── script.js
-├── pranav_resume.pdf
+├── Pranav_Resume.pdf
 └── README.md
 ```
 
